@@ -1,0 +1,15 @@
+.bill-card-main{
+    max-height: 300px;
+    max-width: 200px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* .bill-card-main input,button{
+    width: 20%;
+    height: 10%;
+} */

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Patrick+Hand&family=Varela+Round&display=swap');
+
+/* --text: #141405;
+--background: #ffffff;
+--primary: #caeaae;
+--secondary: #b6ecb8;
+--accent: #2caa30; */
+.second-main {
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: #d9ddf2;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second-left h1 {
+    font-family: 'Bad Script', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+
+.second-left {
+    width: 40%;
+    min-height: 60vh;
+    max-height: 80vh;
+    align-self: center;
+    border-radius: 20px;
+    margin-left: 2%;
+    background-color: #bec5e9;
+    text-align: initial;
+    padding: 0 2%;
+    box-shadow: rgba(19, 80, 145, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.second-right h1 {
+    text-align: center;
+}
+
+.second-right {
+    width: 40%;
+    align-self: center;
+    min-height: 60vh;
+    max-height: 80vh;
+    color: black;
+    background-color: #6272ce;
+    border-radius: 20px;
+    margin-right: 2%;
+    box-shadow: rgba(29, 187, 8, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: initial;
+    padding: 0 2%;
+}
+
+.second-left-btn {
+
+    text-align: center;
+}
+
+.second-right-btn {
+    text-align: center;
+}
+
+/* 
+.second-left-btn button{
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(14, 92, 123, 0.35) 0px 5px 15px;
+    padding: 3px;
+    font-size: 20px;
+}
+
+.second-right-btn {
+    text-align: center;
+} */
+/* CSS */
+
+
+/* .second-right-btn button{
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    padding: 3px;
+    box-shadow: rgb(7, 70, 137) 0px 20px 30px -10px;
+    font-size: 20px;
+    
+}
+.second-left-btn button:hover{
+    background-color:#47CF73;
+}
+.second-right-btn button:hover{
+    color: white;
+    background-color:#131417;
+} */
+@media all and (max-width:1021px) {
+    .second-main {
+        flex-direction: column;
+        justify-content: space-around;
+        min-height: 150vh;
+    }
+
+    .second-left {
+        width: 80%;
+    }
+
+    .second-right {
+        width: 80%;
+    }
+}
+
+
+/* CSS */
+.second-btn button {
+    align-self: center;
+    background-color: #6272ce;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.second-btn button:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    background-color: #6272ce;
+    transform: translate3d(0, 2px, 0);
+}
+.second-btn-left button{
+    background-color: #bec5e9;
+}
+.second-btn-left button:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    background-color: #bec5e9;
+    transform: translate3d(0, 2px, 0);
+}
+
+.second-btn button:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}

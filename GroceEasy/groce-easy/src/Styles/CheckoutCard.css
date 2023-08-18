@@ -1,0 +1,38 @@
+
+.checkcard-main{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #446ade;
+    width: 80%;
+    /* border: 5px solid black; */
+    border-radius: 10px;
+}
+.checkcard-log{
+    align-self: center;   
+}
+.material-symbols-outlined {
+    font-variation-settings:
+'FILL' 0,
+'wght' 400,
+'GRAD' 0,
+'opsz' 48
+}
+.checkcard-button{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+.checkcard-name{
+    text-align: center;
+    width: 40%;
+}
+.checkcard-button button{
+    width: 40%;
+    height: 40%;
+    background-color: transparent;
+    border-radius: 4px;
+    border: .5px solid black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}

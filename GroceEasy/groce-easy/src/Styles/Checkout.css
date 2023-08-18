@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    background-color: #dae3fb;
+}
+
+.checkout-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: #dae3fb;
+}
+    
+
+.checkout-left {
+    background-color: #dae3fb;
+    width: 40%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dae3fb;
+    gap: 2%;
+}
